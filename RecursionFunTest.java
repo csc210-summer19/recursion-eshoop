@@ -177,7 +177,7 @@ public class RecursionFunTest {
     list.duplicateAll("B");
     assertEquals(0, list.size());
     list.addLast("B");
-    list.duplicateAll("B");
+		list.duplicateAll("B");
     assertEquals("B", list.get(0));
     assertEquals("B", list.get(1));
     assertEquals(2, list.size());
